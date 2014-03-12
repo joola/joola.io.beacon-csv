@@ -1,0 +1,26 @@
+{
+  "name": "beacon.csv",
+  "version": "0.0.1",
+  "private": true,
+  "scripts": {
+    "start": "node app.js"
+  },
+  "dependencies": {
+    "csvtojson": "*",
+    "joola.io.sdk":"http://github.com/joola/joola.io.sdk/tarball/develop",
+    "sleep":"*",
+    "mocha":"*"
+  },
+  "devDependencies": {
+    "coveralls": "*",
+    "should": "*",
+    "mocha": "*",
+    "istanbul": "*",
+    "sinon": "*",
+    "chai": "*",
+    "sinon-chai": "*",
+    "expect": "*",
+    "underscore": "*",
+    "jshint": "*"
+  }
+}
